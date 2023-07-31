@@ -10,7 +10,7 @@ function CoverPage() {
           <ul className="nav-list">
             <li>
               <a
-                href="https://drive.google.com/file/d/1vjLdRDYskwlU_6LOFNkzYgd2MPZVYC8x/view?usp=share_link"
+                href="https://drive.google.com/file/d/1t8DkmUUFHiljdLcDEo8QpIBSz7J0hGWl/view"
                 target="_blank"
               >
                 Resume
