@@ -1,4 +1,4 @@
-export const IntroOverlay = () => {
+export const IntroOverlay = (): JSX.Element => {
   return (
     <div className='intro-overlay'>
       <div className='ball' />

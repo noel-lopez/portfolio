@@ -1,8 +1,7 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { MdKeyboardArrowDown as ArrowDownIcon } from 'react-icons/md'
-import HoverImage from './HoverImage'
 
-function CoverPage () {
+function CoverPage (): JSX.Element {
   return (
     <div className='after-animation'>
       <nav>
@@ -43,9 +42,9 @@ function CoverPage () {
           <h1 className='title'>
             I create <span className='playful'>playful</span> experiences.
           </h1>
-          <div className="pfp-container">
-          <img src='/images/pfp.webp' alt='My pfp' className='pfp-image' />
-          <img src='/images/pfp-color.webp' alt='My pfp' className='pfp-image color-image' />
+          <div className='pfp-container'>
+            <img src='/images/pfp.webp' alt='My pfp' className='pfp-image' />
+            <img src='/images/pfp-color.webp' alt='My pfp' className='pfp-image color-image' />
           </div>
         </div>
         <h3 className='job-title'>Noel Lopez / Software Developer</h3>
