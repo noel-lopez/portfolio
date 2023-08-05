@@ -14,3 +14,10 @@ html {
   visibility: hidden;
   scroll-behavior: smooth;
 }
+
+* {
+  &::selection {
+    color: $black;
+    background: $white;
+  }
+}
