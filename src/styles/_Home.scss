@@ -100,16 +100,27 @@
           animation: 10s ease 0s infinite alternate none running rainbow;
         }
       }
-      .pfp-image {
-        width: 350px;
+      .pfp-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
         @media (max-height: 800px) {
-          width: 250px;
+          width: 400px;
         }
         @media (max-width: 1280px) {
-          width: 250px;
+          width: 300px;
         }
         @media (max-width: 967px) {
           width: 200px;
+        }
+        .pfp-image {
+          position: absolute;
+          width: 100%;
+        }
+        .color-image {
+          z-index: 1;
         }
       }
     }

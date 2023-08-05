@@ -1,5 +1,5 @@
 function ProjectList () {
-  return <div>ProjectList</div>
+  return <></>
 }
 
 export default ProjectList

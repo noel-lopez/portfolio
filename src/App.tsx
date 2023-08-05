@@ -39,31 +39,36 @@ function App () {
           opacity: 0,
           ease: 'power4.out'
         })
-        .from('.pfp-image', {
+        .from('.pfp-container', {
           duration: 0.5,
           y: 100,
           opacity: 0,
           ease: 'power3.out'
-        })
+        }, "-=0.5")
         .from('.title', {
           duration: 0.8,
           y: 100,
           opacity: 0,
           delay: 0.2,
           ease: 'power4.out'
-        })
+        }, "-=0.2")
         .from('.job-title', {
           duration: 0.8,
           y: 100,
           opacity: 0,
           ease: 'power4.out'
+        }, "-=0.4")
+        .from('.color-image', {
+          duration: 0.5,
+          opacity: 0,
+          ease: 'power3.out'
         })
         .from('.scroll-indicator', {
           duration: 0.5,
           y: 100,
           opacity: 0,
           ease: 'power3.out'
-        })
+        }, "-=0.2")
     }
 
     homeAnimation(completeAnimation)

@@ -20,4 +20,14 @@ html {
     color: $black;
     background: $white;
   }
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $black;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $light-grey;
+    border-radius: 0.5rem;
+  }
 }
