@@ -3,7 +3,7 @@ import React from 'react'
 export const IntroOverlay = () => {
   return (
     <div className='intro-overlay'>
-      <div className='ball'></div>
+      <div className='ball' />
     </div>
   )
 }
