@@ -42,7 +42,7 @@ function CoverPage () {
           <h1 className='title'>
             I create <span className='playful'>playful</span> experiences.
           </h1>
-          <img src='/images/pfp.png' alt='My pfp' className='pfp-image' />
+          <img src='/images/portfolio-pfp.webp' alt='My pfp' className='pfp-image' />
         </div>
         <h3 className='job-title'>Noel Lopez / Software Developer</h3>
         <button className='scroll-indicator'>

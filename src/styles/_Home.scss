@@ -101,15 +101,15 @@
         }
       }
       .pfp-image {
-        width: 300px;
+        width: 350px;
         @media (max-height: 800px) {
-          width: 200px;
+          width: 250px;
         }
         @media (max-width: 1280px) {
-          width: 200px;
+          width: 250px;
         }
         @media (max-width: 967px) {
-          width: 100px;
+          width: 200px;
         }
       }
     }
