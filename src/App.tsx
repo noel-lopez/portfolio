@@ -1,7 +1,7 @@
 import './styles/App.scss'
 import IntroOverlay from './components/IntroOverlay'
 import { useEffect, useState } from 'react'
-import { gsap } from 'gsap'
+import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import CoverPage from './components/CoverPage'
 import ProjectList from './components/ProjectList'
@@ -19,7 +19,7 @@ function App () {
 
     gsap.registerPlugin(ScrollTrigger)
 
-    const homeAnimation = (animation) => {
+    const homeAnimation = (animation: GSAPCallback) => {
       const tl = gsap.timeline()
 
       tl.to('body', { duration: 0, css: { visibility: 'visible' } })
