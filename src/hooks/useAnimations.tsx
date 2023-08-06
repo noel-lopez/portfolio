@@ -135,7 +135,27 @@ const useAnimations = (): AnimationReturn => {
       })
     }
 
-    // TODO: Footer animation
+    // Footer animation
+    const tlFooter = gsap.timeline({
+      scrollTrigger: {
+        trigger: 'footer',
+        start: 'top center',
+        end: 'top top',
+        scrub: true
+      }
+    })
+
+    tlFooter
+      .from('footer h2', {
+        y: 100,
+        opacity: 0,
+        duration: 0.6
+      })
+      .from('footer .footer-links', {
+        y: 100,
+        opacity: 0,
+        duration: 0.6
+      })
   }, [coverCompleted])
 
   return { animationCompleted, coverCompleted }

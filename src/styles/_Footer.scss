@@ -1,0 +1,48 @@
+footer {
+  height: 100vh; // fallback height definition
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: $font;
+  h2 {
+    color: $white;
+    font-size: 2.5rem;
+    @media (min-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      padding: 0 16px;
+      @media (min-width: 768px) {
+        padding: 0 32px;
+      }
+      a {
+        display: inline-block;
+        font-family: $font;
+        color: $white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        @media (min-width: 768px) {
+          font-size: 1.5rem;
+        }
+
+        svg {
+          font-size: 1.5rem;
+          @media (min-width: 768px) {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
