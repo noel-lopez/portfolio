@@ -1,5 +1,5 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { MdKeyboardArrowDown as ArrowDownIcon } from 'react-icons/md'
+import Header from './Header'
 
 interface Props {
   scrollToProjects: () => void
@@ -8,39 +8,7 @@ interface Props {
 function CoverPage ({ scrollToProjects }: Props): JSX.Element {
   return (
     <div className='after-animation'>
-      <nav>
-        <div className='space-between'>
-          <div className='logo'>NL</div>
-          <ul className='nav-list'>
-            <li>
-              <a
-                href='https://drive.google.com/file/d/1t8DkmUUFHiljdLcDEo8QpIBSz7J0hGWl/view'
-                target='_blank' rel='noreferrer'
-              >
-                Resume
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://github.com/noel-lopez'
-                target='_blank'
-                className='nav-icon' rel='noreferrer'
-              >
-                <BsGithub />
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://www.linkedin.com/in/nlopezmo/'
-                target='_blank'
-                className='nav-icon' rel='noreferrer'
-              >
-                <BsLinkedin />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Header />
       <main>
         <div className='cta'>
           <h1 className='title'>

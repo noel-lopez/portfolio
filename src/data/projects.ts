@@ -15,5 +15,12 @@ export const projectsList: ProjectType[] = [
     codeUrl: 'https://github.com/noel-lopez/react-wordle',
     demoUrl: 'https://noel-wordle.vercel.app',
     tools: ['JSX', 'React', 'CSS', 'Vercel']
+  },
+  {
+    name: 'Code Toolkit @nlpz',
+    description: 'My own code utilities and two React libraries. Published on NPM and available for use.\nEmpowering developers to build faster and better!',
+    image: 'npmLibraries.webp',
+    codeUrl: 'https://github.com/noel-lopez/nlpz',
+    tools: ['Typescript', 'React', 'NPM', 'Turborepo']
   }
 ]
