@@ -1,7 +1,11 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { MdKeyboardArrowDown as ArrowDownIcon } from 'react-icons/md'
 
-function CoverPage (): JSX.Element {
+interface Props {
+  scrollToProjects: () => void
+}
+
+function CoverPage ({ scrollToProjects }: Props): JSX.Element {
   return (
     <div className='after-animation'>
       <nav>
@@ -48,7 +52,7 @@ function CoverPage (): JSX.Element {
           </div>
         </div>
         <h3 className='job-title'>Noel Lopez / Software Developer</h3>
-        <button className='scroll-indicator'>
+        <button className='scroll-indicator' onClick={scrollToProjects}>
           <span>Projects</span>
           <ArrowDownIcon />
         </button>
