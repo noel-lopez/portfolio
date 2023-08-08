@@ -24,7 +24,7 @@ export const projectsList: ProjectType[] = [
     image: 'artPortfolio.webp',
     codeUrl: 'https://github.com/noel-lopez/art-portfolio',
     demoUrl: 'https://arumxchan-portfolio.vercel.app',
-    tools: ['Typescript', 'NextJS', 'SCSS', 'Gsap', 'Framer Motion']
+    tools: ['Typescript', 'NextJS', 'Tailwind CSS', 'Gsap', 'Framer Motion']
   },
   {
     name: 'Code Toolkit @nlpz',
