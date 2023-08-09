@@ -18,6 +18,14 @@ export const projectsList: ProjectType[] = [
     tools: ['JSX', 'React', 'CSS', 'Vercel']
   },
   {
+    name: 'Dev Blog',
+    description: 'My personal blog where I share some of my coding knowledge and experience.',
+    image: 'devBlog.webp',
+    codeUrl: 'https://github.com/noel-lopez/blog',
+    demoUrl: 'https://nlpz-blog.vercel.app',
+    tools: ['Typescript', 'NextJS', 'Tailwind CSS', 'MDX']
+  },
+  {
     name: 'Art Gallery',
     description:
       'Art portfolio website that I built for my girlfriend.\nA place to showcase her art and connect with her audience.',
