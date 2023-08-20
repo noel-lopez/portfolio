@@ -92,8 +92,7 @@ const useAnimations = (): AnimationReturn => {
           scrollTrigger: {
             trigger: project,
             start: 'top center',
-            end: 'center center',
-            scrub: true
+            end: 'center center'
           }
         })
         const projectImage = project.querySelector('img')
@@ -102,12 +101,14 @@ const useAnimations = (): AnimationReturn => {
         tlProject
           .from(projectImage, {
             x: -300,
-            opacity: 0
+            opacity: 0,
+            duration: 0.5
           })
           .from(projectInfo, {
             x: 300,
-            opacity: 0
-          })
+            opacity: 0,
+            duration: 0.5
+          }, '-=0.4')
       })
     } else {
       // Mobile scroll animations
@@ -116,8 +117,7 @@ const useAnimations = (): AnimationReturn => {
           scrollTrigger: {
             trigger: project,
             start: 'top center',
-            end: 'center center',
-            scrub: 1
+            end: 'center center'
           }
         })
         const projectImage = project.querySelector('img')
