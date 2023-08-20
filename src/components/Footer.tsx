@@ -1,4 +1,4 @@
-import { ResumeLink, GithubLink, LinkedinLink, TwitterLink } from './SocialLinks'
+import { ResumeLink, GithubLink, LinkedinLink, MailLink } from './SocialLinks'
 
 function Footer (): JSX.Element {
   return (
@@ -15,7 +15,7 @@ function Footer (): JSX.Element {
           <LinkedinLink />
         </li>
         <li>
-          <TwitterLink />
+          <MailLink />
         </li>
       </ul>
     </footer>
