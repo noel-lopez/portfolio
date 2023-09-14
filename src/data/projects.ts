@@ -9,6 +9,14 @@ export interface ProjectType {
 
 export const projectsList: ProjectType[] = [
   {
+    name: 'Pato-Click',
+    description: 'Idle clicker game developed during a 2 weeks game jam which won 1st place.\nMy most ambitious project so far as I had to learn Nuxt from scratch and build a game in such a short time!',
+    image: 'patoclick.webp',
+    codeUrl: 'https://github.com/noel-lopez/pato-click',
+    demoUrl: 'https://patoclick.vercel.app',
+    tools: ['TypeScript', 'Nuxt 3', 'Vue.js', 'UnoCSS', 'Vercel']
+  },
+  {
     name: 'Wordle game',
     description:
       'Unravel word puzzles in 6 tries!\nTest your vocab skills and conquer the challenge. Addictive and fun!',
@@ -23,7 +31,7 @@ export const projectsList: ProjectType[] = [
     image: 'devBlog.webp',
     codeUrl: 'https://github.com/noel-lopez/blog',
     demoUrl: 'https://nlpz-blog.vercel.app',
-    tools: ['Typescript', 'NextJS', 'Tailwind CSS', 'MDX']
+    tools: ['TypeScript', 'NextJS', 'Tailwind CSS', 'MDX']
   },
   {
     name: 'Art Gallery',
@@ -32,7 +40,7 @@ export const projectsList: ProjectType[] = [
     image: 'artPortfolio.webp',
     codeUrl: 'https://github.com/noel-lopez/art-portfolio',
     demoUrl: 'https://arumxchan-portfolio.vercel.app',
-    tools: ['Typescript', 'NextJS', 'Tailwind CSS']
+    tools: ['TypeScript', 'NextJS', 'Tailwind CSS']
   },
   {
     name: 'Code Toolkit @nlpz',
@@ -40,6 +48,6 @@ export const projectsList: ProjectType[] = [
       'My own code utilities and two React libraries. Published on NPM and available for use.\nEmpowering developers to build faster and better!',
     image: 'npmLibraries.webp',
     codeUrl: 'https://github.com/noel-lopez/nlpz',
-    tools: ['Typescript', 'React', 'NPM', 'Turborepo']
+    tools: ['TypeScript', 'React', 'NPM', 'Turborepo']
   }
 ]
