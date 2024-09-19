@@ -41,7 +41,8 @@ export const projectsList: ProjectType[] = [
     codeUrl: 'https://github.com/noel-lopez/art-portfolio',
     demoUrl: 'https://arumxchan-portfolio.vercel.app',
     tools: ['TypeScript', 'NextJS', 'Tailwind CSS']
-  },
+  }
+  /* WIP PROJECTS
   {
     name: 'Code Toolkit @nlpz',
     description:
@@ -50,4 +51,5 @@ export const projectsList: ProjectType[] = [
     codeUrl: 'https://github.com/noel-lopez/nlpz',
     tools: ['TypeScript', 'React', 'NPM', 'Turborepo']
   }
+  */
 ]
