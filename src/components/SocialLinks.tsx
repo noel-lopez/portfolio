@@ -9,7 +9,7 @@ interface SocialLinkProps {
 export function ResumeLink ({ className = '' }: SocialLinkProps): JSX.Element {
   return (
     <motion.a
-      href='https://drive.google.com/file/d/1gv0DGPDSlG8FXrWESXmLkTMroN6K4vLU/view'
+      href='https://drive.google.com/file/d/123pny52tlCKep2GEypHjJ3y8foXuF2B7/view'
       target='_blank'
       rel='noopener noreferrer'
       whileHover={{ scale: 1.05 }}
