@@ -9,7 +9,8 @@
   }
 
   .project {
-    overflow: hidden;
+    // el overflow debería ser visible para que no se corte el boxshadow que usas como bloom
+    overflow: visible;
     position: relative;
     width: 100%;
     height: 80vh;
