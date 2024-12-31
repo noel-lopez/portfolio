@@ -17,15 +17,6 @@ export const projectsList: ProjectType[] = [
     tools: ['TypeScript', 'Nuxt 3', 'Vue.js', 'UnoCSS', 'Vercel']
   },
   {
-    name: 'Wordle game',
-    description:
-      'Unravel word puzzles in 6 tries!\nTest your vocab skills and conquer the challenge. Addictive and fun!',
-    image: 'wordle.webp',
-    codeUrl: 'https://github.com/noel-lopez/react-wordle',
-    demoUrl: 'https://noel-wordle.vercel.app',
-    tools: ['JSX', 'React', 'CSS', 'Vercel']
-  },
-  {
     name: 'Dev Blog',
     description: 'My personal blog where I share some of my coding knowledge and experience.',
     image: 'devBlog.webp',
@@ -41,7 +32,15 @@ export const projectsList: ProjectType[] = [
     codeUrl: 'https://github.com/noel-lopez/art-portfolio',
     demoUrl: 'https://arumxchan-portfolio.vercel.app',
     tools: ['TypeScript', 'NextJS', 'Tailwind CSS']
-  }
+  },
+  {
+    name: 'Wordle game',
+    description: 'My very first frontend project from some years ago!\nI recreated the popular Wordle game to practice my React skills.',
+    image: 'wordle.webp',
+    codeUrl: 'https://github.com/noel-lopez/react-wordle',
+    demoUrl: 'https://noel-wordle.vercel.app',
+    tools: ['JSX', 'React', 'CSS', 'Vercel']
+  },
   /* WIP PROJECTS
   {
     name: 'Code Toolkit @nlpz',
