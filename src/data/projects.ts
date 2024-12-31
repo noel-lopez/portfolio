@@ -40,7 +40,7 @@ export const projectsList: ProjectType[] = [
     codeUrl: 'https://github.com/noel-lopez/react-wordle',
     demoUrl: 'https://noel-wordle.vercel.app',
     tools: ['JSX', 'React', 'CSS', 'Vercel']
-  },
+  }
   /* WIP PROJECTS
   {
     name: 'Code Toolkit @nlpz',
